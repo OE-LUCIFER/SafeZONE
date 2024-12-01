@@ -3,11 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecureZone by HelpingAI</title>
+    <title>SecureZone by HelpingAI - Advanced Web Protection</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #0a0a0a;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00ff88;
+            text-shadow: 0 0 10px rgba(0,255,136,0.5);
+        }
+        .feature-box {
+            background: #1a1a1a;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 1px solid #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #00ff88;
+            margin-top: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            padding-left: 25px;
+            position: relative;
+        }
+        li:before {
+            content: "🔒";
+            position: absolute;
+            left: 0;
+            top: 2px;
+        }
+        .status {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #00ff88;
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
 </head>
 <body>
-    <h1>SecureZone by HelpingAI</h1>
-    <p>Anti-Automation Defense Script 🛡️</p>
-    <script src="noautomationhai.js"></script>
+    <div class="status">Protected 🛡️</div>
+    <div class="container">
+        <h1>SecureZone by HelpingAI</h1>
+        
+        <div class="feature-box">
+            <h2>Advanced Protection Active</h2>
+            <ul>
+                <li>DevTools Protection</li>
+                <li>Console Blocking</li>
+                <li>Source Code Protection</li>
+                <li>WebSocket Security</li>
+                <li>Network Protection</li>
+            </ul>
+        </div>
+
+        <div class="feature-box">
+            <h2>Security Features</h2>
+            <ul>
+                <li>Anti-Automation Defense</li>
+                <li>Inspection Prevention</li>
+                <li>Right-Click Protection</li>
+                <li>Keyboard Shortcut Blocking</li>
+                <li>Frame Protection</li>
+            </ul>
+        </div>
+
+        <div class="feature-box">
+            <h2>Additional Protection</h2>
+            <ul>
+                <li>Code Encryption</li>
+                <li>Debug Prevention</li>
+                <li>Performance Protection</li>
+                <li>Storage Security</li>
+                <li>Event Monitoring</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Security Scripts -->
+    <script src="disableDevTools.js"></script>
+    <script src="disableConsole.js"></script>
+    <script src="disableWebSockets.js"></script>
+    <script src="sourceProtect.js"></script>
+    <script src="ultimateProtection.js"></script>
 </body>
 </html>
